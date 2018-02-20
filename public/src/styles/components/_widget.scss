@@ -1,0 +1,28 @@
+// Widget headet
+
+.widget-header {
+    background:$off-black;
+    color:$off-white;
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between
+}
+
+.widget-header_title{
+    margin: 0;
+
+}
+
+.widget-message{
+    color: $off-white;
+    margin: 0;
+    padding:5rem;
+    text-align: center;
+    border-bottom: 1px solid  darken($light-blue,10%);
+
+}
+
+.widget-body{
+    background-color: $light-blue;
+    margin-bottom: 5rem;
+}

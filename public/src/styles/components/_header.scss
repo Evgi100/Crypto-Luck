@@ -1,0 +1,23 @@
+.header {
+    background:$off-black;
+    margin-bottom: 4.5rem;
+    color: white;
+    padding: $m-size 0;
+}
+
+// BEM-Block-Element-Modifier
+.header__title{
+    font-size: 3.2rem;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.header__subtitle {
+    color:$off-white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+

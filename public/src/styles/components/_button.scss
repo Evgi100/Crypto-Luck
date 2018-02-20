@@ -1,0 +1,37 @@
+.big-button{
+    background: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple,10%);
+    color: white;
+    font-weight: bold;
+    font-size:4.5rem; 
+    width: 100%;
+    margin-bottom:5rem; 
+    padding: 2.4rem;
+    text-transform: uppercase;
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+// 
+
+.button {
+background-color: $purple;
+border:none;
+border-bottom: .3rem solid darken($purple,10%);
+color:white;
+font-weight: 500;
+padding:$s-size;
+}
+
+// this is a modified version of the button following syntax is the BEM convetion
+
+.button--link{
+background: none;
+border: none;
+color: $off-white;
+padding: 0;
+margin-left: $s-size;
+}
